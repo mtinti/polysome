@@ -1,0 +1,62 @@
+1	GO:0010608	2.29e-09	BP	posttranscriptional regulation of gene expression	160/4338
+1	GO:0051603	2.45e-09	BP	proteolysis involved in cellular protein catabolic process	19/4338
+1	GO:0006950	6.45e-08	BP	response to stress            	14/4338
+1	GO:0007018	4.56e-07	BP	microtubule-based movement    	48/4338
+1	GO:0006511	2.59e-05	BP	ubiquitin-dependent protein catabolic process	31/4338
+1	GO:0030150	4.33e-05	BP	protein import into mitochondrial matrix	13/4338
+1	GO:0006334	5.92e-05	BP	nucleosome assembly           	16/4338
+1	GO:1902600	5.94e-05	BP	proton transmembrane transport	17/4338
+1	GO:0006413	0.000139	BP	translational initiation      	16/4338
+1	GO:0005737	6.53e-17	CC	cytoplasm                     	1282/4338
+1	GO:0005654	3.28e-12	CC	nucleoplasm                   	279/4338
+1	GO:0097014	2.14e-11	CC	ciliary plasm                 	370/4338
+1	GO:0020015	1.14e-10	CC	glycosome                     	90/4338
+1	GO:0005839	2.45e-09	CC	proteasome core complex       	19/4338
+1	GO:0030863	7.11e-08	CC	cortical cytoskeleton         	22/4338
+1	GO:0005634	1.41e-07	CC	nucleus                       	399/4338
+1	GO:0030286	1.84e-06	CC	dynein complex                	22/4338
+1	GO:0031981	2.48e-06	CC	nuclear lumen                 	273/4338
+1	GO:0005643	3.44e-06	CC	nuclear pore                  	30/4338
+1	GO:0005852	1.13e-05	CC	eukaryotic translation initiation factor 3 complex	13/4338
+1	GO:0005829	1.54e-05	CC	cytosol                       	53/4338
+1	GO:0005832	7.81e-05	CC	chaperonin-containing T-complex	8/4338
+1	GO:0030990	8.98e-05	CC	intraciliary transport particle	19/4338
+1	GO:0030992	9.07e-05	CC	intraciliary transport particle B	11/4338
+1	GO:0003729	4e-22	MF	mRNA binding                  	120/4338
+1	GO:0005524	5.94e-12	MF	ATP binding                   	277/4338
+1	GO:0005515	7.42e-11	MF	protein binding               	329/4338
+1	GO:0005488	2.73e-10	MF	binding                       	90/4338
+1	GO:0004298	2.45e-09	MF	threonine-type endopeptidase activity	19/4338
+1	GO:0016887	7.06e-08	MF	ATPase activity               	42/4338
+1	GO:0051082	4.44e-06	MF	unfolded protein binding      	46/4338
+1	GO:0004842	1.35e-05	MF	ubiquitin-protein transferase activity	23/4338
+1	GO:0044877	1.95e-05	MF	protein-containing complex binding	30/4338
+1	GO:0003743	2.49e-05	MF	translation initiation factor activity	19/4338
+1	GO:0003777	3.03e-05	MF	microtubule motor activity    	45/4338
+1	GO:0000166	3.7e-05	MF	nucleotide binding            	29/4338
+1	GO:0005200	5.16e-05	MF	structural constituent of cytoskeleton	14/4338
+1	GO:0004175	5.94e-05	MF	endopeptidase activity        	17/4338
+1	GO:0003723	8.68e-05	MF	RNA binding                   	111/4338
+1	GO:0042783	3.82e-07	BP	evasion of host immune response	4/4338
+1	GO:0009190	1.01e-05	BP	cyclic nucleotide biosynthetic process	8/4338
+1	GO:0035556	0.0002	BP	intracellular signal transduction	12/4338
+1	GO:0016021	2.85e-05	CC	integral component of membrane	110/4338
+1	GO:0004016	6.4e-06	MF	adenylate cyclase activity    	3/4338
+1	GO:0016849	1.01e-05	MF	phosphorus-oxygen lyase activity	8/4338
+2	GO:0005737	3.06e-06	CC	cytoplasm                     	768/3492
+2	GO:0097014	1.96e-05	CC	ciliary plasm                 	171/3492
+2	GO:0003729	7.41e-13	MF	mRNA binding                  	9/3492
+2	GO:0005524	6.27e-06	MF	ATP binding                   	111/3492
+3	GO:0005739	3.71e-11	CC	mitochondrion                 	418/3191
+3	GO:0005840	9.13e-07	CC	ribosome                      	68/3191
+3	GO:0003735	5.71e-07	MF	structural constituent of ribosome	72/3191
+3	GO:0005654	1.61e-06	CC	nucleoplasm                   	97/3191
+4	GO:0020033	1.96e-07	BP	antigenic variation           	19/2771
+4	GO:0006556	4.22e-07	BP	S-adenosylmethionine biosynthetic process	9/2771
+4	GO:0016021	3.57e-12	CC	integral component of membrane	161/2771
+4	GO:0009986	3.31e-07	CC	cell surface                  	21/2771
+4	GO:0004478	4.22e-07	MF	methionine adenosyltransferase activity	9/2771
+4	GO:0006412	8.89e-07	BP	translation                   	15/2771
+4	GO:0005840	1.06e-06	CC	ribosome                      	11/2771
+4	GO:0005739	2.07e-05	CC	mitochondrion                 	216/2771
+4	GO:0003735	1.91e-07	MF	structural constituent of ribosome	11/2771
