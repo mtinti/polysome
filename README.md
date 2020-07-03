@@ -8,6 +8,7 @@
 
 The Jupyter notebook
 - FiguresPaper.ipynb
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/polysome/master?filepath=FiguresPaper.ipynb)
 
 produces the figures and tables submitted for the paper
 
