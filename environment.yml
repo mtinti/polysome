@@ -3,6 +3,7 @@ channels:
   - bioconda
   - conda-forge
   - defaults
+  - districtdatalabs
 dependencies:
   - bioconductor-rsubread
   - snakemake
