@@ -5,15 +5,11 @@ channels:
   - defaults
 dependencies:
   - bioconductor-rsubread
-  - snakemake
   - pyqt
   - qt
-  - gffread
   - biopython
   - tqdm
   - blast
-  - multiqc
-  - bedops
   - seaborn
   - adjusttext
   - jupyter
