@@ -3,7 +3,6 @@ channels:
   - bioconda
   - conda-forge
   - defaults
-  - districtdatalabs
 dependencies:
   - bioconductor-rsubread
   - snakemake
@@ -31,7 +30,6 @@ dependencies:
   - r-nbclust
   - r-mclust
   - goatools
-  - yellowbrick
   - bioconductor-cqn
   - r-repr
   - bioconductor-edaseq
