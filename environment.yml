@@ -31,5 +31,7 @@ dependencies:
   - bioconductor-edaseq
   - r-vctrs
   - r-rlang
-prefix: /homes/mtinti/miniconda3/envs/ritSeq
+  - pip
+  - pip:
+    - yellowbrick
 
