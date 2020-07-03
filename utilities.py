@@ -16,7 +16,142 @@ import seaborn as sns
 import missingno as msno
 import matplotlib
 import inspect, re
+import matplotlib.patches as patches
 plt.style.use('ggplot')
+import scipy as sp
+
+def plot_line(x,y,ax,limits=False):
+    
+    
+    linreg = sp.stats.linregress(x, y)
+    if limits:
+        x = np.array([n for n in x if n > limits[0] and n < limits[1]])
+    ax.plot(x, linreg.slope*x + linreg.intercept,alpha=0.5)
+    
+    ax.text(0.2, 0.8, 'r2='+str(round(linreg.rvalue,2)), 
+                               horizontalalignment='center',
+               verticalalignment='center',
+               transform=ax.transAxes,fontsize=12)
+
+def set_fig_label(ax,text):
+        ax.text(-0.1, 1.1, text+')',
+                    horizontalalignment='center',
+                   verticalalignment='center',
+                   transform=ax.transAxes,fontsize=16)
+        
+        
+#https://github.com/mwaskom/seaborn/blob/3e091fec834a9f7370bce1b9ba16f63af0aae067/seaborn/matrix.py#L947
+def standard_scale(data2d, axis=1):
+    """Divide the data by the difference between the max and min
+    Parameters
+    ----------
+    data2d : pandas.DataFrame
+        Data to normalize
+    axis : int
+        Which axis to normalize across. If 0, normalize across rows, if 1,
+        normalize across columns.
+    vmin : int
+        If 0, then subtract the minimum of the data before dividing by
+        the range.
+    Returns
+    -------
+    standardized : pandas.DataFrame
+        Noramlized data with a mean of 0 and variance of 1 across the
+        specified axis.
+    """
+    # Normalize these values to range from 0 to 1
+    if axis == 1:
+        standardized = data2d
+    else:
+        standardized = data2d.T
+
+    subtract = standardized.min()
+    standardized = (standardized - subtract) / (
+        standardized.max() - standardized.min())
+
+    if axis == 1:
+        return standardized
+    else:
+        return standardized.T
+
+
+def radviz(frame, class_column, ax=None, color=False, **kwds):
+    """RadViz - a multivariate data visualization algorithm
+    Parameters:
+    -----------
+    frame: DataFrame object
+    class_column: Column name that contains information about class membership
+    ax: Matplotlib axis object, optional
+    kwds: Matplotlib scatter method keyword arguments, optional
+    Returns:
+    --------
+    ax: Matplotlib axis object
+    """
+
+    #import random
+    
+    def random_color(column,color):
+        if color:
+            return color[column]
+        #else:
+            #random.seed(column)
+            #return [random.random() for _ in range(3)]
+    
+    def normalize(series):
+        a = min(series)
+        b = max(series)
+        return (series - a) / (b - a)
+    column_names = [column_name for column_name in frame.columns if column_name != class_column]
+    columns = [normalize(frame[column_name]) for column_name in column_names]
+    if ax == None:
+        ax = plt.gca(xlim=[-1, 1], ylim=[-1, 1])
+    classes = set(frame[class_column])
+    to_plot = {}
+    for class_ in classes:
+        to_plot[class_] = [[], [],[]]
+    n = len(frame.columns) - 1
+    s = np.array([(np.cos(t), np.sin(t)) for t in [2.0 * np.pi * (i / float(n)) for i in range(n)]])
+    for i in range(len(frame)):
+        #print(i)
+        row = np.array([column[i] for column in columns])
+        row_ = np.repeat(np.expand_dims(row, axis=1), 2, axis=1)
+        y = (s * row_).sum(axis=0) / row.sum()
+        class_name = frame[class_column][i]
+        to_plot[class_name][0].append(y[0])
+        to_plot[class_name][1].append(y[1])
+        to_plot[class_name][2].append(frame.index.values[i])
+    for class_ in classes:
+        ax.scatter(to_plot[class_][0], to_plot[class_][1], color=random_color(class_,color), label=str(class_),
+                   s=10,alpha=0.2, **kwds)
+        print(class_)
+    ax.add_patch(patches.Circle((0.0, 0.0), radius=1.0, facecolor='none'))
+    print(column_names)
+    
+    font = {
+        
+        'weight': 'bold',
+        'size': 16,
+        }
+    
+    for xy, name in zip(s, column_names):
+        ax.add_patch(patches.Circle(xy, radius=0.015, facecolor='gray',alpha=1))
+        if xy[0] < 0.0 and xy[1] < 0.0:
+            ax.text(xy[0] - 0.025, xy[1] - 0.025, name, ha='right', va='top', fontdict=font)
+        elif xy[0] < 0.0 and xy[1] >= 0.0:
+            ax.text(xy[0] + 0.1, xy[1] + 0.025, name, ha='right', va='bottom', fontdict=font)
+        elif xy[0] >= 0.0 and xy[1] < 0.0:
+            ax.text(xy[0] + 0.025, xy[1] - 0.025, name, ha='left', va='top', fontdict=font)
+        elif xy[0] >= 0.0 and xy[1] >= 0.0:
+            ax.text(xy[0] - 0.1, xy[1] + 0.025, name, ha='left', va='bottom', fontdict=font)
+    leg = ax.legend(loc='upper right',fontsize=12)
+    #https://stackoverflow.com/questions/12848808/set-legend-symbol-opacity-with-matplotlib
+    for lh in leg.legendHandles: 
+        lh.set_alpha(1)
+    for handle in leg.legendHandles:
+        handle.set_sizes([40])
+    ax.axis('equal')
+    return ax,to_plot,s
+
 
 def namestr(obj, namespace):
     return [name for name in namespace if namespace[name] is obj][0]
