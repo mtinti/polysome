@@ -4,6 +4,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - bedops
+  - bedtools
   - bioconductor-rsubread
   - pyqt
   - qt
