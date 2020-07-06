@@ -22,7 +22,12 @@ import scipy as sp
 
 def plot_line(x,y,ax,limits=False):
     
-    
+    temp = pd.DataFrame()
+    temp['x']=x
+    temp['y']=y
+    temp=temp.replace(np.inf,np.nan).replace(-np.inf,np.nan).dropna()
+    x=temp['x'].values
+    y=temp['y'].values
     linreg = sp.stats.linregress(x, y)
     if limits:
         x = np.array([n for n in x if n > limits[0] and n < limits[1]])
