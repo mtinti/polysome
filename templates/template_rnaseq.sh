@@ -72,8 +72,6 @@ samtools sort -@ 8 -o $path_out$base_fastq'sorted.bam'
 samtools index $path_out$base_fastq'sorted.bam'
 
 
-
-
 echo 'run picard MarkDuplicates' 
 picard MarkDuplicates \
 I=$path_out$base_fastq'sorted.bam' \
@@ -88,7 +86,7 @@ samtools sort -@ 8 -o $path_out$base_fastq'sorted.bam' $path_out$base_fastq'sort
 samtools index $path_out$base_fastq'sorted.bam'
 
 echo 'run alfred'
-alfred qc -r $path_genome_index.fa -j $path_out'alfred/qc.json.gz' -o $path_out'alfred/qc.tsv.gz' $path_out$base_fastq'sorted.bam'
+alfred qc -r $path_genome_index.fa -j $path_out'alfred/'$base_fastq'qc.json.gz' -o $path_out'alfred/'$base_fastq'qc.tsv.gz' $path_out$base_fastq'sorted.bam'
 
 
 echo 'run samtools flagstat'
@@ -165,13 +163,38 @@ rm $path_out'fastqs/'$base_fastq'.sorted_unmap_all_2.tagged.fastq'
 
 gzip $path_out'fastqs/'*.fastq
 
-#zgrep ^ME $path_out'alfred/qc.tsv.gz' | cut -f 2- | datamash transpose | column -t > $path_out'alfred/qc2.tsv'
 
-#rm $path_out$base_fastq'sortedd.bam'
+
+echo 'run filter'
+samtools view  -f 2 -F 768 -b \
+-o $path_out$base_fastq'sorted_.bam' $path_out$base_fastq'sorted.bam'
+
+echo 'run rename'
+mv $path_out$base_fastq'sorted_.bam' $path_out$base_fastq'sorted.bam'
+
+echo 'run extract_barcode' 
+python mylib/extract_barcodes_def2.py \
+$path_out$base_fastq'sorted.bam' TCTGTACTATATTG CAATATAGTACAGA 1 True
+
+mv $path_out$base_fastq'sorted_F_plus_R.bam' $path_out$base_fastq'sorted_F_plus_R_SL.bam'
+
+
+echo 'run extract_polyA' 
+python mylib/extract_barcodes_def2.py \
+    $path_out$base_fastq'sorted.bam' AAAAAAAAAA TTTTTTTTTT 1 True
+
+mv $path_out$base_fastq'sorted_F_plus_R.bam' $path_out$base_fastq'sorted_F_plus_R_PoliA.bam'
+
+rm $path_out$base_fastq'sorted_F_plus_R.bam.bai'
+rm $path_out$base_fastq'sorted_WO.bam'
+rm $path_out$base_fastq'sorted_WO.bam.bai'
+
+
+
 rm $path_out$base_fastq'sorted.bam'
 rm $path_out$base_fastq'sorted.bam.bai'
 rm $path_out$base_fastq'sortedname_unmap.bam'
-rm $path_out$base_fastq'sorted_pc_bg.bed.gz'
+#rm $path_out$base_fastq'sorted_pc_bg.bed.gz'
 
 echo 'copy results' 
 rm -r $TMPDIR'/'$experiment'/data'
