@@ -6,7 +6,7 @@ Created on Thu Jun 19 11:52:11 2014
 """
 import os
 
-replace_list = eval(open('vars2.txt').read())
+replace_list = eval(open('vars5.txt').read())
 #template_file = open(os.path.join('templates','__test_template3.sh')).read()
 #template_file = open(os.path.join('templates','__test_template_barcode.sh')).read()
 #template_file = open(os.path.join('templates','trinity_template.sh')).read()
@@ -15,7 +15,7 @@ replace_list = eval(open('vars2.txt').read())
 #template_file = open(os.path.join('templates','trinity_template.sh')).read()
 #print(template_file)
 #print(template_file)
-template_file = open(os.path.join('templates','count_ht_template.sh')).read()
+template_file = open(os.path.join('templates','template_rnaseq.sh')).read()
 if __name__ == '__main__':
     run_all_content = ''
     for dictionary in replace_list:
