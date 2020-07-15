@@ -1,0 +1,9 @@
+title: "Polysome RNA-seq"
+ 
+#extra_fn_clean_exts:
+#    - '_fastqc.zip'
+#    - '_1' 
+#    - '_2'
+# Change the output filenames
+data_dir_name: polysome_mqc/report_fastqc_data
+output_fn_name: polysome_mqc/report_fastqc.html

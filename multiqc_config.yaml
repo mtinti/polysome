@@ -1,0 +1,22 @@
+title: "Polysome RNA-seq"
+extra_fn_clean_exts:
+    - '_1.fastq.gz'
+    - '_sorted.bam'
+
+    
+# Change the output filenames
+data_dir_name: polysome_mqc/report_data
+output_fn_name: polysome_mqc/report.html
+
+fastp:
+  fn: '*__fastp.json'
+
+# Modules that should come at the top of the report
+top_modules:
+    - 'generalstats'
+    - 'fastp'
+    - 'bowtie2'    
+    - 'bamqc'    
+    - 'picard'
+    - 'featurecounts'
+    - 'fastq_screen'    
