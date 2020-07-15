@@ -1,16 +1,16 @@
 [
 {'experiment': 'B_pol_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_pol_1_'
 },
 
 {'experiment': 'B_tot_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_tot_1_'
 },
 
 {'experiment': 'B_sub_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_sub_1_'
 },
 
@@ -18,17 +18,17 @@
 
 
 {'experiment': 'B_pol_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_pol_2_'
 },
 
 {'experiment': 'B_tot_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_tot_2_'
 },
 
 {'experiment': 'B_sub_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_sub_2_'
 },
 
@@ -37,64 +37,64 @@
 
 
 {'experiment': 'B_pol_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_pol_3_'
 },
 
 {'experiment': 'B_tot_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_tot_3_'
 },
 
 {'experiment': 'B_sub_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'B_sub_3_'
 },
 
 
 
 {'experiment': 'P_pol_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_pol_1_'
 },
 
 {'experiment': 'P_tot_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_tot_1_'
 },
 
 {'experiment': 'P_sub_1',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_sub_1_'
 },
 
 
 {'experiment': 'P_pol_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_pol_2_'
 },
 
 {'experiment': 'P_tot_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_tot_2_'
 },
 
 {'experiment': 'P_sub_2',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_sub_2_'
 },
 {'experiment': 'P_pol_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_pol_3_'
 },
 
 {'experiment': 'P_tot_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_tot_3_'
 },
 
 {'experiment': 'P_sub_3',
-'g_version': 'tb927_3',
+'g_version': 'tb927_5',
 'base_fastq':'P_sub_3_'
 },
 ]
