@@ -7,11 +7,11 @@
     School of Life Sciences, University of Dundee
 
 The Jupyter notebook
-- FiguresPaper.ipynb
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/polysome/master?filepath=FiguresPaper.ipynb)
+- Figures_Paper_def.ipynb
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/polysome/master?filepath=Figures_Paper_def.ipynb)
 
 produces the figures and tables submitted for the paper
 
-![Alt text](Figures/Figure_5.png?raw=true "Title")
+![Alt text](Figures/Figure_1.png?raw=true "Title")
 
-For the intron containing gene Tb927.8.1510 (ATP-dependent RNA helicase DBP2B) the figure plots the genome coverage for the total (TOT), polysomal (POL) and subpolysomal (SUB) samples (1 to 3) of the bloodstream (BS) and procyclic (PC) lifestages. The figure also reports the genome coverage of the Splice Leader (SL) and poly(A) mRNA tails / poly(A) genomic tracts (PA) containing reads assembled from all the samples. Moreover, the figure reports the ribosome profiling reads for the BSF (riboBSF) and PCF (riboPCF) life stages described in Vasquex et al. 2014. Finally, the last two genomic tracks reports the peptide identifications for new predicted open reading frames (PEP-new) and for all the open reading frames (PEP-all). The maximum high of the gene tracks is set and reported on the top left of each genomic track. The top of the figure plots an ideogram of the gene structures. The three grey genomic tracks on the top report ATG codons in green and stop codons in red. 
+The contrasting physiological environments of Trypanosoma brucei procyclic (insect vector) and bloodstream (mammalian host) forms necessitates deployment of different  molecular processes and, therefore, changes in protein expression. Transcriptional regulation is unusual in T. brucei because the arrangement of genes is polycistronic; however, genes which are transcribed together are subsequently cleaved into separate mRNAs by trans-splicing. Following pre-mRNA processing, the regulation of mature mRNA stability is a tightly controlled cellular process. While many stage-specific transcripts have been identified, previous studies using RNA-seq suggest that changes in overall transcript level do not necessarily reflect the abundance of the corresponding protein. To better understand the regulation of gene expression in T. brucei, we performed RNA-seq on total, sub-polysomal, and polysomal mRNA. Our analyses also showed that several long non-coding RNAs are more abundant in the sub-polysome samples, suggesting they might pay a role in the regulation of gene expression. 
