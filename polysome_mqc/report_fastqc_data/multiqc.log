@@ -1,0 +1,159 @@
+[2020-07-10 12:37:01,084] multiqc                                            [DEBUG  ]  No MultiQC config found: /cluster/home/mtinti/miniconda3/envs/ritSeq/lib/python3.7/site-packages/multiqc_config.yaml
+[2020-07-10 12:37:01,085] multiqc                                            [DEBUG  ]  No MultiQC config found: /homes/mtinti/.multiqc_config.yaml
+[2020-07-10 12:37:01,087] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2020-07-10 12:37:01,087] multiqc                                            [DEBUG  ]  New config 'title': Polysome RNA-seq
+[2020-07-10 12:37:01,088] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['_1.fastq.gz', '_sorted.bam']
+[2020-07-10 12:37:01,088] multiqc                                            [DEBUG  ]  New config 'data_dir_name': polysome_mqc/report_data
+[2020-07-10 12:37:01,088] multiqc                                            [DEBUG  ]  New config 'output_fn_name': polysome_mqc/report.html
+[2020-07-10 12:37:01,088] multiqc                                            [DEBUG  ]  New config 'fastp': {'fn': '*__fastp.json'}
+[2020-07-10 12:37:01,088] multiqc                                            [DEBUG  ]  New config 'top_modules': ['generalstats', 'fastp', 'samtools', 'bamqc', 'picard']
+[2020-07-10 12:37:01,089] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_fastqc.yaml
+[2020-07-10 12:37:01,089] multiqc                                            [DEBUG  ]  New config 'title': Polysome RNA-seq
+[2020-07-10 12:37:01,090] multiqc                                            [DEBUG  ]  New config 'data_dir_name': polysome_mqc/report_fastqc_data
+[2020-07-10 12:37:01,090] multiqc                                            [DEBUG  ]  New config 'output_fn_name': polysome_mqc/report_fastqc.html
+[2020-07-10 12:37:01,090] multiqc                                            [DEBUG  ]  Command used: /homes/mtinti/miniconda3/envs/ritSeq/bin/multiqc P_pol_1/res3/P_pol_1/fastqc P_pol_2/res3/P_pol_2/fastqc P_pol_3/res3/P_pol_3/fastqc P_sub_1/res3/P_sub_1/fastqc P_sub_2/res3/P_sub_2/fastqc P_sub_3/res3/P_sub_3/fastqc P_tot_1/res3/P_tot_1/fastqc P_tot_2/res3/P_tot_2/fastqc P_tot_3/res3/P_tot_3/fastqc B_pol_1/res3/B_pol_1/fastqc B_pol_2/res3/B_pol_2/fastqc B_pol_3/res3/B_pol_3/fastqc B_sub_1/res3/B_sub_1/fastqc B_sub_2/res3/B_sub_2/fastqc B_sub_3/res3/B_sub_3/fastqc B_tot_1/res3/B_tot_1/fastqc B_tot_2/res3/B_tot_2/fastqc B_tot_3/res3/B_tot_3/fastqc --config multiqc_fastqc.yaml -f
+[2020-07-10 12:37:01,206] multiqc                                            [WARNING]  MultiQC Version v1.9 now available!
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2020-07-10 12:37:01,207] multiqc                                            [DEBUG  ]  Command     : /homes/mtinti/miniconda3/envs/ritSeq/bin/multiqc P_pol_1/res3/P_pol_1/fastqc P_pol_2/res3/P_pol_2/fastqc P_pol_3/res3/P_pol_3/fastqc P_sub_1/res3/P_sub_1/fastqc P_sub_2/res3/P_sub_2/fastqc P_sub_3/res3/P_sub_3/fastqc P_tot_1/res3/P_tot_1/fastqc P_tot_2/res3/P_tot_2/fastqc P_tot_3/res3/P_tot_3/fastqc B_pol_1/res3/B_pol_1/fastqc B_pol_2/res3/B_pol_2/fastqc B_pol_3/res3/B_pol_3/fastqc B_sub_1/res3/B_sub_1/fastqc B_sub_2/res3/B_sub_2/fastqc B_sub_3/res3/B_sub_3/fastqc B_tot_1/res3/B_tot_1/fastqc B_tot_2/res3/B_tot_2/fastqc B_tot_3/res3/B_tot_3/fastqc --config multiqc_fastqc.yaml -f
+[2020-07-10 12:37:01,207] multiqc                                            [DEBUG  ]  Working dir : /cluster/majf_lab/mtinti/polisome
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Template    : default
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Report title: Polysome RNA-seq
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_pol_1/res3/P_pol_1/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_pol_2/res3/P_pol_2/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_pol_3/res3/P_pol_3/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_sub_1/res3/P_sub_1/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_sub_2/res3/P_sub_2/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_sub_3/res3/P_sub_3/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_tot_1/res3/P_tot_1/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_tot_2/res3/P_tot_2/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'P_tot_3/res3/P_tot_3/fastqc'
+[2020-07-10 12:37:01,207] multiqc                                            [INFO   ]  Searching 'B_pol_1/res3/B_pol_1/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_pol_2/res3/B_pol_2/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_pol_3/res3/B_pol_3/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_sub_1/res3/B_sub_1/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_sub_2/res3/B_sub_2/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_sub_3/res3/B_sub_3/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_tot_1/res3/B_tot_1/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_tot_2/res3/B_tot_2/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [INFO   ]  Searching 'B_tot_3/res3/B_tot_3/fastqc'
+[2020-07-10 12:37:01,208] multiqc                                            [DEBUG  ]  Analysing modules: fastp, samtools, picard, custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, prokka, samblaster, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2020-07-10 12:37:01,209] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/993.1.all.q/tmpjwtjfyg7
+[2020-07-10 12:37:01,362] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_1_2_fastqc.html
+[2020-07-10 12:37:01,362] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_1_1_fastqc.html
+[2020-07-10 12:37:01,369] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_2_2_fastqc.html
+[2020-07-10 12:37:01,369] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_2_1_fastqc.html
+[2020-07-10 12:37:01,437] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_3_2_fastqc.html
+[2020-07-10 12:37:01,437] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_pol_3_1_fastqc.html
+[2020-07-10 12:37:01,474] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_1_2_fastqc.html
+[2020-07-10 12:37:01,474] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_1_1_fastqc.html
+[2020-07-10 12:37:01,475] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_2_1_fastqc.html
+[2020-07-10 12:37:01,475] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_2_2_fastqc.html
+[2020-07-10 12:37:01,476] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_3_1_fastqc.html
+[2020-07-10 12:37:01,476] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_sub_3_2_fastqc.html
+[2020-07-10 12:37:01,477] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_1_2_fastqc.html
+[2020-07-10 12:37:01,478] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_1_1_fastqc.html
+[2020-07-10 12:37:01,478] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_2_2_fastqc.html
+[2020-07-10 12:37:01,479] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_2_1_fastqc.html
+[2020-07-10 12:37:01,481] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_3_2_fastqc.html
+[2020-07-10 12:37:01,481] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: P_tot_3_1_fastqc.html
+[2020-07-10 12:37:01,481] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_1_1_fastqc.html
+[2020-07-10 12:37:01,482] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_1_2_fastqc.html
+[2020-07-10 12:37:01,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_2_2_fastqc.html
+[2020-07-10 12:37:01,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_2_1_fastqc.html
+[2020-07-10 12:37:01,484] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_3_1_fastqc.html
+[2020-07-10 12:37:01,484] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_pol_3_2_fastqc.html
+[2020-07-10 12:37:01,485] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_1_1_fastqc.html
+[2020-07-10 12:37:01,485] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_1_2_fastqc.html
+[2020-07-10 12:37:01,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_2_2_fastqc.html
+[2020-07-10 12:37:01,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_2_1_fastqc.html
+[2020-07-10 12:37:01,488] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_3_2_fastqc.html
+[2020-07-10 12:37:01,489] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_sub_3_1_fastqc.html
+[2020-07-10 12:37:01,490] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_1_1_fastqc.html
+[2020-07-10 12:37:01,490] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_1_2_fastqc.html
+[2020-07-10 12:37:01,490] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_2_2_fastqc.html
+[2020-07-10 12:37:01,491] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_2_1_fastqc.html
+[2020-07-10 12:37:01,491] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_3_1_fastqc.html
+[2020-07-10 12:37:01,492] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: B_tot_3_2_fastqc.html
+[2020-07-10 12:37:01,907] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2020-07-10 12:37:01,914] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2020-07-10 12:37:01,926] multiqc                                            [DEBUG  ]  No samples found: picard
+[2020-07-10 12:37:01,932] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2020-07-10 12:37:01,937] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2020-07-10 12:37:01,941] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2020-07-10 12:37:01,946] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2020-07-10 12:37:01,951] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2020-07-10 12:37:01,957] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2020-07-10 12:37:01,962] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2020-07-10 12:37:01,967] multiqc                                            [DEBUG  ]  No samples found: quast
+[2020-07-10 12:37:01,972] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2020-07-10 12:37:01,976] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2020-07-10 12:37:01,981] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2020-07-10 12:37:01,990] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2020-07-10 12:37:01,995] multiqc                                            [DEBUG  ]  No samples found: busco
+[2020-07-10 12:37:02,001] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2020-07-10 12:37:02,005] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2020-07-10 12:37:02,010] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2020-07-10 12:37:02,020] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2020-07-10 12:37:02,024] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2020-07-10 12:37:02,029] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2020-07-10 12:37:02,034] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2020-07-10 12:37:02,039] multiqc                                            [DEBUG  ]  No samples found: happy
+[2020-07-10 12:37:02,045] multiqc                                            [DEBUG  ]  No samples found: homer
+[2020-07-10 12:37:02,049] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2020-07-10 12:37:02,054] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2020-07-10 12:37:02,059] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2020-07-10 12:37:02,065] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2020-07-10 12:37:02,070] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2020-07-10 12:37:02,075] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2020-07-10 12:37:02,080] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2020-07-10 12:37:02,084] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2020-07-10 12:37:02,089] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2020-07-10 12:37:02,094] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2020-07-10 12:37:02,099] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2020-07-10 12:37:02,104] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2020-07-10 12:37:02,109] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2020-07-10 12:37:02,115] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2020-07-10 12:37:02,120] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2020-07-10 12:37:02,125] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2020-07-10 12:37:02,135] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2020-07-10 12:37:02,140] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2020-07-10 12:37:02,146] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2020-07-10 12:37:02,150] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2020-07-10 12:37:02,155] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2020-07-10 12:37:02,160] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2020-07-10 12:37:02,166] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2020-07-10 12:37:02,169] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2020-07-10 12:37:02,173] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2020-07-10 12:37:02,177] multiqc                                            [DEBUG  ]  No samples found: star
+[2020-07-10 12:37:02,180] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2020-07-10 12:37:02,184] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2020-07-10 12:37:02,187] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2020-07-10 12:37:02,191] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2020-07-10 12:37:02,194] multiqc                                            [DEBUG  ]  No samples found: kat
+[2020-07-10 12:37:02,198] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2020-07-10 12:37:02,201] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2020-07-10 12:37:02,205] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2020-07-10 12:37:02,208] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2020-07-10 12:37:02,212] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2020-07-10 12:37:02,215] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2020-07-10 12:37:02,218] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2020-07-10 12:37:02,222] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2020-07-10 12:37:02,225] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2020-07-10 12:37:02,228] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2020-07-10 12:37:02,232] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2020-07-10 12:37:03,005] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 32 reports
+[2020-07-10 12:37:03,361] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2020-07-10 12:37:03,364] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2020-07-10 12:37:03,367] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2020-07-10 12:37:03,369] multiqc                                            [DEBUG  ]  No samples found: interop
+[2020-07-10 12:37:03,372] multiqc                                            [DEBUG  ]  No samples found: flash
+[2020-07-10 12:37:03,409] multiqc                                            [INFO   ]  Compressing plot data
+[2020-07-10 12:37:03,782] multiqc                                            [WARNING]  Deleting    : polysome_mqc/report_fastqc.html   (-f was specified)
+[2020-07-10 12:37:03,783] multiqc                                            [WARNING]  Deleting    : polysome_mqc/report_fastqc_data   (-f was specified)
+[2020-07-10 12:37:03,784] multiqc                                            [INFO   ]  Report      : polysome_mqc/report_fastqc.html
+[2020-07-10 12:37:03,784] multiqc                                            [INFO   ]  Data        : polysome_mqc/report_fastqc_data
+[2020-07-10 12:37:03,784] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/993.1.all.q/tmpjwtjfyg7/multiqc_data/multiqc_fastqc.txt' to '/cluster/majf_lab/mtinti/polisome/polysome_mqc/report_fastqc_data'
+[2020-07-10 12:37:03,785] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/993.1.all.q/tmpjwtjfyg7/multiqc_data/multiqc_general_stats.txt' to '/cluster/majf_lab/mtinti/polisome/polysome_mqc/report_fastqc_data'
+[2020-07-10 12:37:03,786] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/993.1.all.q/tmpjwtjfyg7/multiqc_data/multiqc_sources.txt' to '/cluster/majf_lab/mtinti/polisome/polysome_mqc/report_fastqc_data'
+[2020-07-10 12:37:03,786] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/993.1.all.q/tmpjwtjfyg7/multiqc_data/multiqc_data.json' to '/cluster/majf_lab/mtinti/polisome/polysome_mqc/report_fastqc_data'
+[2020-07-10 12:37:03,873] multiqc                                            [INFO   ]  MultiQC complete

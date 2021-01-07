@@ -1,0 +1,199 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/fastp/B_pol_1__fastp.json
+fastp	all_sections	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/fastp/B_pol_2__fastp.json
+fastp	all_sections	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/fastp/B_pol_3__fastp.json
+fastp	all_sections	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/fastp/B_sub_1__fastp.json
+fastp	all_sections	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/fastp/B_sub_2__fastp.json
+fastp	all_sections	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/fastp/B_sub_3__fastp.json
+fastp	all_sections	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/fastp/B_tot_1__fastp.json
+fastp	all_sections	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/fastp/B_tot_2__fastp.json
+fastp	all_sections	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/fastp/B_tot_3__fastp.json
+fastp	all_sections	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/fastp/P_pol_1__fastp.json
+fastp	all_sections	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/fastp/P_pol_2__fastp.json
+fastp	all_sections	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/fastp/P_pol_3__fastp.json
+fastp	all_sections	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/fastp/P_sub_1__fastp.json
+fastp	all_sections	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/fastp/P_sub_2__fastp.json
+fastp	all_sections	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/fastp/P_sub_3__fastp.json
+fastp	all_sections	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/fastp/P_tot_1__fastp.json
+fastp	all_sections	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/fastp/P_tot_2__fastp.json
+fastp	all_sections	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/fastp/P_tot_3__fastp.json
+Bowtie 2	all_sections	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/bowtie/B_pol_1.log
+Bowtie 2	all_sections	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/bowtie/B_pol_2.log
+Bowtie 2	all_sections	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/bowtie/B_pol_3.log
+Bowtie 2	all_sections	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/bowtie/B_sub_1.log
+Bowtie 2	all_sections	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/bowtie/B_sub_2.log
+Bowtie 2	all_sections	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/bowtie/B_sub_3.log
+Bowtie 2	all_sections	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/bowtie/B_tot_1.log
+Bowtie 2	all_sections	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/bowtie/B_tot_2.log
+Bowtie 2	all_sections	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/bowtie/B_tot_3.log
+Bowtie 2	all_sections	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/bowtie/P_pol_1.log
+Bowtie 2	all_sections	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/bowtie/P_pol_2.log
+Bowtie 2	all_sections	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/bowtie/P_pol_3.log
+Bowtie 2	all_sections	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/bowtie/P_sub_1.log
+Bowtie 2	all_sections	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/bowtie/P_sub_2.log
+Bowtie 2	all_sections	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/bowtie/P_sub_3.log
+Bowtie 2	all_sections	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/bowtie/P_tot_1.log
+Bowtie 2	all_sections	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/bowtie/P_tot_2.log
+Bowtie 2	all_sections	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/bowtie/P_tot_3.log
+Picard	DuplicationMetrics	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/markduplicates/marked_dup_metrics.txt
+Picard	DuplicationMetrics	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/markduplicates/marked_dup_metrics.txt
+FastQ Screen	all_sections	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/fastqs/B_pol_1_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/fastqs/B_pol_2_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/fastqs/B_pol_3_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/fastqs/B_sub_1_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/fastqs/B_sub_2_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/fastqs/B_sub_3_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/fastqs/B_tot_1_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/fastqs/B_tot_2_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/fastqs/B_tot_3_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/fastqs/P_pol_1_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/fastqs/P_pol_2_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/fastqs/P_pol_3_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/fastqs/P_sub_1_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/fastqs/P_sub_2_.sorted_unmap_all_1_screen.txt
+FastQ Screen	all_sections	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/fastqs/P_sub_3_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/fastqs/P_tot_1_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/fastqs/P_tot_2_.sorted_unmap_all_2_screen.txt
+FastQ Screen	all_sections	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/fastqs/P_tot_3_.sorted_unmap_all_2_screen.txt
+QualiMap	genome_results	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/genome_results.txt
+QualiMap	genome_results	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/genome_results.txt
+QualiMap	genome_results	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/genome_results.txt
+QualiMap	genome_results	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/genome_results.txt
+QualiMap	genome_results	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/genome_results.txt
+QualiMap	genome_results	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/genome_results.txt
+QualiMap	genome_results	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/genome_results.txt
+QualiMap	genome_results	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/genome_results.txt
+QualiMap	genome_results	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/genome_results.txt
+QualiMap	genome_results	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/genome_results.txt
+QualiMap	genome_results	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/genome_results.txt
+QualiMap	genome_results	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/genome_results.txt
+QualiMap	genome_results	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/genome_results.txt
+QualiMap	genome_results	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/genome_results.txt
+QualiMap	genome_results	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/genome_results.txt
+QualiMap	genome_results	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/genome_results.txt
+QualiMap	genome_results	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/genome_results.txt
+QualiMap	genome_results	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/genome_results.txt
+QualiMap	coverage_histogram	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/B_pol_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/B_pol_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/B_pol_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/B_sub_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/B_sub_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/B_sub_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/B_tot_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/B_tot_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/B_tot_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/P_pol_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/P_pol_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/P_pol_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/P_sub_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/P_sub_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/P_sub_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/P_tot_1/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/P_tot_2/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	coverage_histogram	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/P_tot_3/raw_data_qualimapReport/coverage_histogram.txt
+QualiMap	insert_size_histogram	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/B_pol_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/B_pol_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/B_pol_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/B_sub_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/B_sub_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/B_sub_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/B_tot_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/B_tot_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/B_tot_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/P_pol_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/P_pol_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/P_pol_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/P_sub_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/P_sub_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/P_sub_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/P_tot_1/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/P_tot_2/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	insert_size_histogram	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/P_tot_3/raw_data_qualimapReport/insert_size_histogram.txt
+QualiMap	mapped_gc_distribution	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/B_pol_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/B_pol_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/B_pol_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/B_sub_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/B_sub_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/B_sub_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/B_tot_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/B_tot_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/B_tot_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/P_pol_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/P_pol_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/P_pol_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/P_sub_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/P_sub_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/P_sub_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/P_tot_1/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/P_tot_2/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	mapped_gc_distribution	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/P_tot_3/raw_data_qualimapReport/mapped_reads_gc-content_distribution.txt
+QualiMap	rna_genome_results	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/rnaseq_qc_results.txt
+QualiMap	rna_coverage_histogram	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/qualimap/B_pol_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/qualimap/B_pol_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/qualimap/B_pol_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/qualimap/B_sub_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/qualimap/B_sub_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/qualimap/B_sub_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/qualimap/B_tot_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/qualimap/B_tot_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/qualimap/B_tot_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/qualimap/P_pol_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/qualimap/P_pol_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/qualimap/P_pol_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/qualimap/P_sub_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/qualimap/P_sub_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/qualimap/P_sub_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/qualimap/P_tot_1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/qualimap/P_tot_2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/qualimap/P_tot_3/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+featureCounts	all_sections	B_pol_1	/cluster/majf_lab/mtinti/polisome/B_pol_1/res3/B_pol_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_pol_2	/cluster/majf_lab/mtinti/polisome/B_pol_2/res3/B_pol_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_pol_3	/cluster/majf_lab/mtinti/polisome/B_pol_3/res3/B_pol_3/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_sub_1	/cluster/majf_lab/mtinti/polisome/B_sub_1/res3/B_sub_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_sub_2	/cluster/majf_lab/mtinti/polisome/B_sub_2/res3/B_sub_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_sub_3	/cluster/majf_lab/mtinti/polisome/B_sub_3/res3/B_sub_3/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_tot_1	/cluster/majf_lab/mtinti/polisome/B_tot_1/res3/B_tot_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_tot_2	/cluster/majf_lab/mtinti/polisome/B_tot_2/res3/B_tot_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	B_tot_3	/cluster/majf_lab/mtinti/polisome/B_tot_3/res3/B_tot_3/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_pol_1	/cluster/majf_lab/mtinti/polisome/P_pol_1/res3/P_pol_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_pol_2	/cluster/majf_lab/mtinti/polisome/P_pol_2/res3/P_pol_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_pol_3	/cluster/majf_lab/mtinti/polisome/P_pol_3/res3/P_pol_3/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_sub_1	/cluster/majf_lab/mtinti/polisome/P_sub_1/res3/P_sub_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_sub_2	/cluster/majf_lab/mtinti/polisome/P_sub_2/res3/P_sub_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_sub_3	/cluster/majf_lab/mtinti/polisome/P_sub_3/res3/P_sub_3/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_tot_1	/cluster/majf_lab/mtinti/polisome/P_tot_1/res3/P_tot_1/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_tot_2	/cluster/majf_lab/mtinti/polisome/P_tot_2/res3/P_tot_2/featureCounts/counts.txt.summary
+featureCounts	all_sections	P_tot_3	/cluster/majf_lab/mtinti/polisome/P_tot_3/res3/P_tot_3/featureCounts/counts.txt.summary
