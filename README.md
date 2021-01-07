@@ -12,6 +12,6 @@ The Jupyter notebook
 
 produces the figures and tables submitted for the paper
 
-![Alt text](Figures/Figure_1.png?raw=true "Title")
+![Alt text](Figures/Figure_1.jpeg?raw=true "Title")
 
 The contrasting physiological environments of Trypanosoma brucei procyclic (insect vector) and bloodstream (mammalian host) forms necessitates deployment of different  molecular processes and, therefore, changes in protein expression. Transcriptional regulation is unusual in T. brucei because the arrangement of genes is polycistronic; however, genes which are transcribed together are subsequently cleaved into separate mRNAs by trans-splicing. Following pre-mRNA processing, the regulation of mature mRNA stability is a tightly controlled cellular process. While many stage-specific transcripts have been identified, previous studies using RNA-seq suggest that changes in overall transcript level do not necessarily reflect the abundance of the corresponding protein. To better understand the regulation of gene expression in T. brucei, we performed RNA-seq on total, sub-polysomal, and polysomal mRNA. Our analyses also showed that several long non-coding RNAs are more abundant in the sub-polysome samples, suggesting they might pay a role in the regulation of gene expression. 
